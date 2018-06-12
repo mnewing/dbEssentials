@@ -20,8 +20,10 @@
 		print_r($_POST); //for debug purpose - remove once working
 
 		//build the SQL command
+		// person (fname, surname, age) - these valuse all match the names in the database
+		// ('$_POST[fname]', '$_POST[surname]', '$_POST[age]') - these match the names the input fields in the form where given
 		$sql = "INSERT INTO person (fname, surname, age) VALUES ('$_POST[fname]', '$_POST[surname]', '$_POST[age]')";
-		echo "DEBUG sql command is: ".$sql."<br />";
+		echo "DEBUG sql command is: ".$sql."<br />"; //remove once you SQL is correct
 
 		//connect to the database
 		require_once '../../../_connectionInfo.php';
