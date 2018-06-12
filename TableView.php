@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>Table View</title>
-    <meta name="description" content="displays the clients stored in the database">
+    <meta name="description" content="displays data stored in the database">
 </head>
 
 <body >
