@@ -1,0 +1,40 @@
+<head>
+    <title>Add</title>
+    <meta name="description" content="Collect info about ther person">
+</head>
+
+<body >
+<h1>Usage notes</h1>
+<p>This page is the form to collect the data. when the submit button is pressed it will load the addPerson page that will do the insert.</p>
+
+<h2>Validation</h2>
+<p>mandatory fields are marked with a * and set to required - browsers will ensure that these fields are not left empty</p>
+<p>fields types are appropiate to the data being collected. age is a number and some sensible mins and maxs have been set. modern browsers will ensure that only numbers between 18 and 120 are entered</p>
+
+<h1>Add</h1>
+	<p>To add to the database fill in the form and press submit.</p>
+	<p>Required fields are marked with the * symbol.</p>
+
+	<div id="contact_form">
+	  <form method="post" action="addPerson.php">
+		<table>
+		  <tr>
+			<th><label for="fname">First name*:</label></th>
+			<td><input type="text" name="fname" required/></td>
+		  </tr>
+		  <tr>
+			<th><label for="surname">Surname*:</label></th>
+			<td><input type="text" name="surname" required/></td>
+		  </tr>
+		  <tr>
+			<th><label for="age">Age:</label></th>
+			<td><input type="number" name="age" min="18" max="120"/></td>
+		  </tr>
+		  <tr>
+			<td><input type="submit" name="submit" value="Submit"></td>
+		  </tr>
+		</table>
+	  </form>
+	</div>  <!-- end contact_table -->
+</body>
+</html>
