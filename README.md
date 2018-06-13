@@ -34,6 +34,7 @@ View.php - displays all the records with link for each to edit it
 editPersonForm.php - uses the ID passed in as a query string with URL to fetch the current data help for that record from the database and pre-fill in the form. this means the form is an accurate representation of the database record
 editPerson.php - updates all the fields for the record apart from the ID whether the user changed them or not. this is a acceptable because the form had the upto date data from the database. the ID is passed from the form to correctly identify which record to update
 
+
 Work flow is as follows:
 1. the user is shown all the records with a link on each to edit it
 2. when the user clicks the edit link they are taken to a page with the form to edit the data and the ID of the record is passed as a query string
