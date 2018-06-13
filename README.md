@@ -43,3 +43,9 @@ Work flow is as follows:
 5. the user changes whatever values they wish to change and clicks submit
 6. the edit page then create the UPDATE query based on the data submitted by the form including the ID to ensure that the right record gets updated
 7. the update is run and the record gets update
+
+Lesson 6 - Working with Images
+--------
+Adding records is broken up into two files:<br />
+<i>addImageForm.html</i> - displays a form to get the image file and also displays any images already in teh database<br />
+<i>addImage.php</i> - uses the data from the form to add the image to the database
