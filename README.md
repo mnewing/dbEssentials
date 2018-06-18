@@ -49,3 +49,10 @@ Lesson 6 - Working with Images
 Adding records is broken up into two files:<br />
 <i>addImageForm.html</i> - displays a form to get the image file and also displays any images already in teh database<br />
 <i>addImage.php</i> - uses the data from the form to add the image to the database
+
+Lesson 7 - Password protecting pages
+--------
+<i>loginoutPage.php</i> - single page that demonstrates password access control
+<br />
+<i>useProtect.php</i> - makes use of the script <i>_protect.php</i> to handle password control
+<i>_protect.php</i> - a script that can be included at the top of pages to ensure they are only accessed i the correct passwor is entered.
