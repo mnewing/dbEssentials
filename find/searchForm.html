@@ -1,0 +1,30 @@
+<head>
+    <title>Search</title>
+    <meta name="description" content="Search by name">
+</head>
+
+<body >
+<h1>Usage notes</h1>
+<p>This page is the form to collect search information. when the submit button is pressed it will load the searchResults page that will do display any matching records.</p>
+
+
+<h1>Search</h1>
+	<p>To search fill in as much information as you have and press submit.</p>
+
+	<form method="post" action="searchResults.php">
+	<table>
+	  <tr>
+		<th><label for="fname">First name:</label></th>
+		<td><input type="text" name="fname"/></td>
+	  </tr>
+	  <tr>
+		<th><label for="surname">Surname:</label></th>
+		<td><input type="text" name="surname" /></td>
+	  </tr>
+	  <tr>
+		<td><input type="submit" name="submit" value="Submit"></td>
+	  </tr>
+	</table>
+	</form>
+</body>
+</html>
