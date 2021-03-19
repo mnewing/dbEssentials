@@ -9,9 +9,9 @@
 <body >
 
 <h1>View</h1>
-<p>The most basic of code allowing you to connect to the database and fetch all records from a table and display them using a HTML table.</p>
+<p>The most basic of code allowing you to connect to the database and fetch all records from a table and display them using a HTML table. It would be wise to keep the security information for connecting to the database out of the website home directory.</p>
 
-<p>To use this you will need to change the database settings if you are not running against a local database and make sure that database details match you table.</p>
+<p>You will need to change the database settings if you are not running against a local database and make sure that database details match your database and tables.</p>
 
 <?php
 	//create the SQL query
